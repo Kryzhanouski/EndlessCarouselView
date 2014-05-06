@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928DAD8719195E3900DD3765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DAD8619195E3900DD3765 /* Foundation.framework */; };
+		928DAD8919195E3900DD3765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DAD8819195E3900DD3765 /* CoreGraphics.framework */; };
+		928DAD8B19195E3900DD3765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DAD8A19195E3900DD3765 /* UIKit.framework */; };
+		928DAD9119195E3900DD3765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 928DAD8F19195E3900DD3765 /* InfoPlist.strings */; };
+		928DAD9319195E3900DD3765 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DAD9219195E3900DD3765 /* main.m */; };
+		928DAD9719195E3900DD3765 /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DAD9619195E3900DD3765 /* MKAppDelegate.m */; };
+		928DAD9D19195E3900DD3765 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DAD9C19195E3900DD3765 /* MKViewController.m */; };
+		928DAD9F19195E3900DD3765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928DAD9E19195E3900DD3765 /* Images.xcassets */; };
+		928DADA619195E3900DD3765 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DADA519195E3900DD3765 /* XCTest.framework */; };
+		928DADA719195E3900DD3765 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DAD8619195E3900DD3765 /* Foundation.framework */; };
+		928DADA819195E3900DD3765 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928DAD8A19195E3900DD3765 /* UIKit.framework */; };
+		928DADB019195E3900DD3765 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 928DADAE19195E3900DD3765 /* InfoPlist.strings */; };
+		928DADB219195E3900DD3765 /* EndlessCarouselViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DADB119195E3900DD3765 /* EndlessCarouselViewTests.m */; };
+		928DADC019195E8300DD3765 /* EndlessCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DADBD19195E8300DD3765 /* EndlessCarouselView.m */; };
+		928DADC119195E8300DD3765 /* EndlessCarouselViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 928DADBF19195E8300DD3765 /* EndlessCarouselViewCell.m */; };
+		928DADC31919613B00DD3765 /* MKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 928DADC21919613B00DD3765 /* MKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		928DADA919195E3900DD3765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 928DAD7B19195E3900DD3765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 928DAD8219195E3900DD3765;
+			remoteInfo = EndlessCarouselView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		928DAD8319195E3900DD3765 /* EndlessCarouselView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EndlessCarouselView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928DAD8619195E3900DD3765 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		928DAD8819195E3900DD3765 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		928DAD8A19195E3900DD3765 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		928DAD8E19195E3900DD3765 /* EndlessCarouselView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EndlessCarouselView-Info.plist"; sourceTree = "<group>"; };
+		928DAD9019195E3900DD3765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		928DAD9219195E3900DD3765 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928DAD9419195E3900DD3765 /* EndlessCarouselView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EndlessCarouselView-Prefix.pch"; sourceTree = "<group>"; };
+		928DAD9519195E3900DD3765 /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
+		928DAD9619195E3900DD3765 /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
+		928DAD9B19195E3900DD3765 /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
+		928DAD9C19195E3900DD3765 /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
+		928DAD9E19195E3900DD3765 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		928DADA419195E3900DD3765 /* EndlessCarouselViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EndlessCarouselViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		928DADA519195E3900DD3765 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		928DADAD19195E3900DD3765 /* EndlessCarouselViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EndlessCarouselViewTests-Info.plist"; sourceTree = "<group>"; };
+		928DADAF19195E3900DD3765 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		928DADB119195E3900DD3765 /* EndlessCarouselViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EndlessCarouselViewTests.m; sourceTree = "<group>"; };
+		928DADBC19195E8300DD3765 /* EndlessCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndlessCarouselView.h; sourceTree = "<group>"; };
+		928DADBD19195E8300DD3765 /* EndlessCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndlessCarouselView.m; sourceTree = "<group>"; };
+		928DADBE19195E8300DD3765 /* EndlessCarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EndlessCarouselViewCell.h; sourceTree = "<group>"; };
+		928DADBF19195E8300DD3765 /* EndlessCarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EndlessCarouselViewCell.m; sourceTree = "<group>"; };
+		928DADC21919613B00DD3765 /* MKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928DAD8019195E3900DD3765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DAD8919195E3900DD3765 /* CoreGraphics.framework in Frameworks */,
+				928DAD8B19195E3900DD3765 /* UIKit.framework in Frameworks */,
+				928DAD8719195E3900DD3765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928DADA119195E3900DD3765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DADA619195E3900DD3765 /* XCTest.framework in Frameworks */,
+				928DADA819195E3900DD3765 /* UIKit.framework in Frameworks */,
+				928DADA719195E3900DD3765 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928DAD7A19195E3900DD3765 = {
+			isa = PBXGroup;
+			children = (
+				928DAD8C19195E3900DD3765 /* EndlessCarouselView */,
+				928DADAB19195E3900DD3765 /* EndlessCarouselViewTests */,
+				928DAD8519195E3900DD3765 /* Frameworks */,
+				928DAD8419195E3900DD3765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928DAD8419195E3900DD3765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928DAD8319195E3900DD3765 /* EndlessCarouselView.app */,
+				928DADA419195E3900DD3765 /* EndlessCarouselViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928DAD8519195E3900DD3765 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				928DAD8619195E3900DD3765 /* Foundation.framework */,
+				928DAD8819195E3900DD3765 /* CoreGraphics.framework */,
+				928DAD8A19195E3900DD3765 /* UIKit.framework */,
+				928DADA519195E3900DD3765 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		928DAD8C19195E3900DD3765 /* EndlessCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				928DADBB19195E8300DD3765 /* EndlessCarouselView */,
+				928DAD9519195E3900DD3765 /* MKAppDelegate.h */,
+				928DAD9619195E3900DD3765 /* MKAppDelegate.m */,
+				928DAD9B19195E3900DD3765 /* MKViewController.h */,
+				928DAD9C19195E3900DD3765 /* MKViewController.m */,
+				928DADC21919613B00DD3765 /* MKViewController.xib */,
+				928DAD9E19195E3900DD3765 /* Images.xcassets */,
+				928DAD8D19195E3900DD3765 /* Supporting Files */,
+			);
+			path = EndlessCarouselView;
+			sourceTree = "<group>";
+		};
+		928DAD8D19195E3900DD3765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928DAD8E19195E3900DD3765 /* EndlessCarouselView-Info.plist */,
+				928DAD8F19195E3900DD3765 /* InfoPlist.strings */,
+				928DAD9219195E3900DD3765 /* main.m */,
+				928DAD9419195E3900DD3765 /* EndlessCarouselView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		928DADAB19195E3900DD3765 /* EndlessCarouselViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				928DADB119195E3900DD3765 /* EndlessCarouselViewTests.m */,
+				928DADAC19195E3900DD3765 /* Supporting Files */,
+			);
+			path = EndlessCarouselViewTests;
+			sourceTree = "<group>";
+		};
+		928DADAC19195E3900DD3765 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928DADAD19195E3900DD3765 /* EndlessCarouselViewTests-Info.plist */,
+				928DADAE19195E3900DD3765 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		928DADBB19195E8300DD3765 /* EndlessCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				928DADBC19195E8300DD3765 /* EndlessCarouselView.h */,
+				928DADBD19195E8300DD3765 /* EndlessCarouselView.m */,
+				928DADBE19195E8300DD3765 /* EndlessCarouselViewCell.h */,
+				928DADBF19195E8300DD3765 /* EndlessCarouselViewCell.m */,
+			);
+			path = EndlessCarouselView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928DAD8219195E3900DD3765 /* EndlessCarouselView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928DADB519195E3900DD3765 /* Build configuration list for PBXNativeTarget "EndlessCarouselView" */;
+			buildPhases = (
+				928DAD7F19195E3900DD3765 /* Sources */,
+				928DAD8019195E3900DD3765 /* Frameworks */,
+				928DAD8119195E3900DD3765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EndlessCarouselView;
+			productName = EndlessCarouselView;
+			productReference = 928DAD8319195E3900DD3765 /* EndlessCarouselView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		928DADA319195E3900DD3765 /* EndlessCarouselViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928DADB819195E3900DD3765 /* Build configuration list for PBXNativeTarget "EndlessCarouselViewTests" */;
+			buildPhases = (
+				928DADA019195E3900DD3765 /* Sources */,
+				928DADA119195E3900DD3765 /* Frameworks */,
+				928DADA219195E3900DD3765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				928DADAA19195E3900DD3765 /* PBXTargetDependency */,
+			);
+			name = EndlessCarouselViewTests;
+			productName = EndlessCarouselViewTests;
+			productReference = 928DADA419195E3900DD3765 /* EndlessCarouselViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928DAD7B19195E3900DD3765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mark Kryzhanouski";
+				TargetAttributes = {
+					928DADA319195E3900DD3765 = {
+						TestTargetID = 928DAD8219195E3900DD3765;
+					};
+				};
+			};
+			buildConfigurationList = 928DAD7E19195E3900DD3765 /* Build configuration list for PBXProject "EndlessCarouselView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928DAD7A19195E3900DD3765;
+			productRefGroup = 928DAD8419195E3900DD3765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928DAD8219195E3900DD3765 /* EndlessCarouselView */,
+				928DADA319195E3900DD3765 /* EndlessCarouselViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928DAD8119195E3900DD3765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DAD9F19195E3900DD3765 /* Images.xcassets in Resources */,
+				928DAD9119195E3900DD3765 /* InfoPlist.strings in Resources */,
+				928DADC31919613B00DD3765 /* MKViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928DADA219195E3900DD3765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DADB019195E3900DD3765 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928DAD7F19195E3900DD3765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DAD9719195E3900DD3765 /* MKAppDelegate.m in Sources */,
+				928DAD9D19195E3900DD3765 /* MKViewController.m in Sources */,
+				928DADC119195E8300DD3765 /* EndlessCarouselViewCell.m in Sources */,
+				928DADC019195E8300DD3765 /* EndlessCarouselView.m in Sources */,
+				928DAD9319195E3900DD3765 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		928DADA019195E3900DD3765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928DADB219195E3900DD3765 /* EndlessCarouselViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		928DADAA19195E3900DD3765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 928DAD8219195E3900DD3765 /* EndlessCarouselView */;
+			targetProxy = 928DADA919195E3900DD3765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		928DAD8F19195E3900DD3765 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928DAD9019195E3900DD3765 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		928DADAE19195E3900DD3765 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928DADAF19195E3900DD3765 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928DADB319195E3900DD3765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		928DADB419195E3900DD3765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928DADB619195E3900DD3765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessCarouselView/EndlessCarouselView-Prefix.pch";
+				INFOPLIST_FILE = "EndlessCarouselView/EndlessCarouselView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		928DADB719195E3900DD3765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessCarouselView/EndlessCarouselView-Prefix.pch";
+				INFOPLIST_FILE = "EndlessCarouselView/EndlessCarouselView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		928DADB919195E3900DD3765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EndlessCarouselView.app/EndlessCarouselView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessCarouselView/EndlessCarouselView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EndlessCarouselViewTests/EndlessCarouselViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		928DADBA19195E3900DD3765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EndlessCarouselView.app/EndlessCarouselView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EndlessCarouselView/EndlessCarouselView-Prefix.pch";
+				INFOPLIST_FILE = "EndlessCarouselViewTests/EndlessCarouselViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928DAD7E19195E3900DD3765 /* Build configuration list for PBXProject "EndlessCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928DADB319195E3900DD3765 /* Debug */,
+				928DADB419195E3900DD3765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928DADB519195E3900DD3765 /* Build configuration list for PBXNativeTarget "EndlessCarouselView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928DADB619195E3900DD3765 /* Debug */,
+				928DADB719195E3900DD3765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		928DADB819195E3900DD3765 /* Build configuration list for PBXNativeTarget "EndlessCarouselViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928DADB919195E3900DD3765 /* Debug */,
+				928DADBA19195E3900DD3765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928DAD7B19195E3900DD3765 /* Project object */;
+}
